@@ -26,6 +26,11 @@ export default new Router({
       path: '/ListarPessoas',
       name: 'ListarPessoas',
       component: ListarPessoas
+    },
+    {
+      path: '/CadastroPessoa/:id',
+      name: 'CadastroPessoa',
+      component: CadastroPessoa
     }
   ]
 })
